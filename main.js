@@ -1,0 +1,23 @@
+const linked_list = require(`./linked_list.js`)
+
+
+let list = new linked_list.LinkedList(5)
+
+list.print()
+console.log(list.search(40))
+list.insert(3)
+list.print()
+list.insertAt(4, 52)
+list.print()
+list.deleteAt(0)
+console.log(list.toArray())
+list.deleteAt(0)
+console.log(list.toArray())
+list.deleteAt(0)
+console.log(list.toArray())
+list.deleteAt(0)
+console.log(list.toArray())
+list.deleteAt(0)
+console.log(list.toArray())
+list.deleteAt(0)
+console.log(list.toArray())
